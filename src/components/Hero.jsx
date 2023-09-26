@@ -1,5 +1,4 @@
 import React from "react";
-import profile_photo from "../images/image-removebg-preview(4).png";
 import design from "../images/Group 26.png";
 
 const Hero = () => {
@@ -10,11 +9,7 @@ const Hero = () => {
       </div>
       <div className="md:absolute top-0 right-0 lg:right-[7rem] flex justify-center items-center md:block -mt-40 md:mt-0">
         <div className="bg-[#242424] h-[32rem] sm:h-[30rem] w-max flex items-end">
-          <img
-            src={profile_photo}
-            alt="Profile"
-            className="h-[20rem] w-[17rem] sm:w-[20rem]"
-          />
+          
         </div>
       </div>
       <div className="col-span-2 z-10 px-2 md:px-0">
