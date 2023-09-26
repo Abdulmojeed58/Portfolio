@@ -20,12 +20,20 @@ const Nav = () => {
         <div>
           <SiFrontendmentor className="icon" />
         </div>
-        <div>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/abdulmojeed-ayoola-aa4b4b237/"
+        >
           <CiLinkedin className="icon" />
-        </div>
-        <div>
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/Mjay_ayo58"
+        >
           <FaTwitter className="icon" />
-        </div>
+        </a>
       </div>
     </div>
   );

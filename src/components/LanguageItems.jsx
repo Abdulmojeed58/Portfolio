@@ -14,8 +14,8 @@ const NO_OF_LANGUAGES = [
 ];
 
 const LanguageItems = () => {
-  const lists = NO_OF_LANGUAGES.map((list) => (
-    <Language name={list.name} years={list.years} />
+  const lists = NO_OF_LANGUAGES.map((list, i) => (
+    <Language key={i} name={list.name} years={list.years} />
   ));
   return (
     <section className="text-white mt-16 md:mt-[10rem]">
