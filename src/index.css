@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  @apply uppercase text-white border-b-2 border-border hover:text-border pb-2 -tracking-tighter transition ease-linear duration-200;
+}
+
+.icon {
+  @apply text-2xl hover:text-border cursor-pointer transition ease-linear duration-200;
+}
+
+.input {
+  @apply border-b-2 border-[#d9d9d985] bg-[#242424] mb-5 block pl-5 w-full uppercase outline-none;
+}
+
+.background {
+  @apply sm:mx-0 px-1 sm:px-28 lg:px-28;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
