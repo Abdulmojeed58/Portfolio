@@ -20,7 +20,9 @@ const Project = ({ item }) => {
         <LazyLoadImage src={item.image} alt={item.name} className="" />
       </div>
       <div>
-        <h2 className="font-bold text-2xl mt-4">{item.name}</h2>
+        <h2 className="font-bold text-2xl mt-4">{item.name}
+        {item.inProgress && <span className="text-lg text-red-700 capitalize"> (In Progress)</span>}
+        </h2>
         <ul className="mt-2 mb-6">
           {item.languages.map((list, index) => (
             <ProjectLanguageList key={index} lists={list} />
