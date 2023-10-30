@@ -1,6 +1,5 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
-import { SiFrontendmentor } from "react-icons/si";
 import { CiLinkedin } from "react-icons/ci";
 import { FaTwitter } from "react-icons/fa";
 
@@ -16,10 +15,7 @@ const Nav = () => {
           href="https://github.com/Abdulmojeed58"
         >
           <AiFillGithub className="icon" />
-        </a>
-        <div>
-          <SiFrontendmentor className="icon" />
-        </div>
+        </a>        
         <a
           target="_blank"
           rel="noreferrer"

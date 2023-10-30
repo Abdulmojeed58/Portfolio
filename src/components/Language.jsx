@@ -2,8 +2,8 @@ import React from 'react';
 
 const Language = (props) => {
     return (
-        <li className='text-center md:text-start mb-10 list-none'>
-            <h2 className='font-bold text-4xl capitalize'>{props.name}</h2>
+        <li className='text-center lg:text-start mb-10 list-none'>
+            <h2 className='font-bold text-3xl md:text-4xl capitalize'>{props.name}</h2>
             <p className='font-bold text-[#D9D9D9]'>{props.years} Years Experience</p>
         </li>
     );

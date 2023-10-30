@@ -6,11 +6,16 @@ const NO_OF_LANGUAGES = [
   { name: "HTML", years: 2 },
   { name: "CSS", years: 2 },
   { name: "javascript", years: 2 },
-  { name: "accessibility", years: 2 },
-  { name: "react", years: 2 },
-  { name: "sass", years: 1 },
   { name: "typescript", years: 1 },
+  { name: "react", years: 2 },
+  { name: "nextjs", years: 1 },
+  { name: "tailwind", years: 2 },
+  { name: "mongodb", years: 1 },
+  { name: "sass", years: 1 },
   { name: "materialui", years: 1 },
+  { name: "redux toolkit", years: 1 },
+  { name: "zustand", years: 1 },
+  { name: "accessibility", years: 2 },
 ];
 
 const LanguageItems = () => {
@@ -23,7 +28,7 @@ const LanguageItems = () => {
         <img src={design} alt="design" />
       </div>
       <div className="w-full h-[1px] bg-[#D9D9D9] mb-10"></div>
-      <ul className="md:grid md:grid-cols-2 lg:grid-cols-3">{lists}</ul>
+      <ul className="grid md:grid-cols-2 lg:grid-cols-3">{lists}</ul>
       <div className="w-full h-[1px] bg-[#D9D9D9] my-10 md:hidden"></div>
     </section>
   );
