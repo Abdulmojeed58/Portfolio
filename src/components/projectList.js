@@ -4,6 +4,7 @@ import FoodApp from "../images/Food app.png";
 import Instagram from "../images/Instagram.png";
 import QuranApp from "../images/quran app.png";
 import Kanban from "../images/Kanban.png";
+import ImageGallery from '../images/hng-image-gallery.png';
 
 export const ALL_PROJECTS = [
   {
@@ -61,5 +62,13 @@ export const ALL_PROJECTS = [
     image: Instagram,
     live: "https://splendorous-pudding-cff5d9.netlify.app/",
     code: "https://github.com/Abdulmojeed58/mini-instagram-clone",
+  },
+  {
+    id: "p7",
+    name: "Image Gallery",
+    languages: ["React", "Tailwind", "Typescript", "React Router"],
+    image: ImageGallery,
+    live: "https://mojeed-hng-image-gallery.netlify.app",
+    code: "https://github.com/Abdulmojeed58/hng-image-gallery",
   },
 ];

@@ -1,5 +1,5 @@
 import React from "react";
-import profile_photo from "../images/ayo_mj2.jpg";
+import profile_photo from "../images/Logo2.png";
 import design from "../images/Group 26.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -10,7 +10,7 @@ const Hero = () => {
         <LazyLoadImage src={design} alt="design" />
       </div>
       <div className="md:absolute top-0 right-0 lg:right-[7rem] flex justify-center items-center md:block -mt-40 md:mt-0">
-        <div className="bg-[#242424] h-[32rem] sm:h-[30rem] w-max flex items-end">
+        <div className="h-[32rem] sm:h-[30rem] w-max flex items-end">
           <LazyLoadImage
             src={profile_photo}
             alt="Profile"
