@@ -6,7 +6,6 @@ import ProjectItems from "./components/ProjectItems";
 
 function App() {
   return (
-    // <div className="bg-backGround sm:mx-0 px-1 sm:px-28 lg:px-44">
     <div className="min-h-screen pt-5 font-body bg-backGround">
       <div className="background">
         <Nav />
@@ -30,7 +29,6 @@ function App() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 

@@ -15,7 +15,8 @@ const NO_OF_LANGUAGES = [
   { name: "materialui", years: 1 },
   { name: "redux toolkit", years: 1 },
   { name: "zustand", years: 1 },
-  { name: "accessibility", years: 2 },
+  { name: "GraphQL", years: 1 },
+  { name: "Jest", years: 1 },
 ];
 
 const LanguageItems = () => {
