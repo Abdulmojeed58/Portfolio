@@ -5,8 +5,21 @@ import Instagram from "../images/Instagram.png";
 import QuranApp from "../images/quran app.png";
 import Kanban from "../images/Kanban.png";
 import ImageGallery from '../images/hng-image-gallery.png';
+import Fitness from '../images/Fitness.png';
 
 export const ALL_PROJECTS = [
+  {
+    id: "p8",
+    name: "Fitness App",
+    languages: [
+      "React",
+      "Scss",
+      "Typescript",
+    ],
+    image: Fitness,
+    live: "https://modern-fitness-app.netlify.app/",
+    code: "/",
+  },
   {
     id: "p1",
     name: "Quran App",
